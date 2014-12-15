@@ -34,6 +34,12 @@ git branch nombreRama
 Unir rama a la rama en la que estas:
 git merge nombreRama
 
+Abandonar(no borrar) la rama en la que estas situado:
+git merge --abort
+
+Para hacer solo los commits de una rama:
+git merge --squash nombreRama
+
 Moverse a otra rama:
 git checkout [parametroOpcional] nombreRama
 
