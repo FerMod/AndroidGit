@@ -3,3 +3,5 @@ Prueba sobre github
 Creo que ya entiendo lo de las ramas
 Espero que sea asi
 Esto no deberia estar en la rama "master"
+
+Hay que hacer repositorios para los demas proyectos.

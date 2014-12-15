@@ -60,7 +60,7 @@ git log --graph --all --decorate --oneline
 -----------------------------------------------------------------------------------------------------
 Para subir al repositorio en la nube los combios realizados solo en una rama (situado en la rama):
 
-//Añade todo los cambios hechos en el repositorio
+//Anade todo los cambios hechos en el repositorio
 git add -A
 	//O para hacerlo solo de un archivo:
 	git add nombreArchivo
