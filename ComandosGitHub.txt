@@ -1,0 +1,46 @@
+
+COMANDOS GITHUB
+
+Iniciar repositorio:
+git init
+
+Clonar repositorio:
+git clone url.git
+
+Obtener estado del repositorio:
+git status
+
+Los commits realizados en local:
+git log
+
+Bajarse lo que hay en el repositorio remoto:
+git pull
+
+Subirlo al repositorio remoto:
+git push
+
+Anadir repositorio (anadir los cambios):
+git add -A
+
+Validar en local:
+git commit -m 'mensaje (en imperativo Ej: fix layout..)'
+
+Crear rama:
+git branch nombreRama
+
+Moverse a otra rama:
+git checkout nombreRama
+
+Ver en que rama estas y cuales hay:
+git branch
+
+Deshacer cambios locales que no esten en el repositorio remoto:
+git stash
+
+Traerse a la rama en la que estes la rama que espicifiques:
+git merge master
+
+
+
+
+
