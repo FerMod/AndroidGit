@@ -32,7 +32,7 @@ Crear rama:
 git branch nombreRama
 
 Unir rama a la rama en la que estas:
-git merge --no-ff nombreRama
+git merge nombreRama
 
 Moverse a otra rama:
 git checkout [parametroOpcional] nombreRama
@@ -47,6 +47,9 @@ git stash
 
 Traerse a la rama en la que estes la rama que espicifiques:
 git merge master
+
+Mostrar arbol de todas las ramas creadas, borradas, etc.:
+git log --graph --all --decorate --oneline
 
 
 
