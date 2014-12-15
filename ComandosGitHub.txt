@@ -37,7 +37,7 @@ git merge nombreRama
 Abandonar(no borrar) la rama en la que estas situado:
 git merge --abort
 
-Para hacer solo los commits de una rama:
+Para hacer los commits de una rama a la vez:
 git merge --squash nombreRama
 
 Moverse a otra rama:
@@ -56,6 +56,25 @@ git merge --squash master
 
 Mostrar arbol de todas las ramas creadas, borradas, etc.:
 git log --graph --all --decorate --oneline
+
+-----------------------------------------------------------------------------------------------------
+Para subir al repositorio en la nube los combios realizados solo en una rama (situado en la rama):
+
+//Añade todo los cambios hechos en el repositorio
+git add -A
+	//O para hacerlo solo de un archivo:
+	git add nombreArchivo
+	
+//Poner un comentario sobre los cambios hechos
+git commit -m "added shit"
+
+//Para subir los cambios hechos en tu rama
+git push
+-------------------------------------------------------------------------------------------------------
+
+EN EL REPOSITORIO "MASTER" NO SE HACE PUSH HASTA QUE SEA UNA VERSION ESTABLE
+//Si se han hecho varios commits en una rama y se quiere poner a la vez en otra rama hacer
+git merge --squash nombreRama
 
 
 
