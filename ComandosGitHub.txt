@@ -52,7 +52,7 @@ Deshacer cambios locales que no esten en el repositorio remoto:
 git stash
 
 Traerse a la rama en la que estes la rama que espicifiques:
-git merge master
+git merge --squash master
 
 Mostrar arbol de todas las ramas creadas, borradas, etc.:
 git log --graph --all --decorate --oneline
