@@ -4,8 +4,11 @@ COMANDOS GITHUB
 Iniciar repositorio:
 git init
 
-Clonar repositorio:
+Clonar repositorio de la nube:
 git clone url.git
+
+Subir repositorio local a la nube:
+git remote add nombreRepositorio url.git
 
 Obtener estado del repositorio:
 git status
@@ -23,7 +26,7 @@ Anadir repositorio (anadir los cambios):
 git add -A
 
 Validar en local:
-git commit -m 'mensaje (en imperativo Ej: fix layout..)'
+git commit -m "mensaje (en imperativo Ej: fix layout..)"
 
 Crear rama:
 git branch nombreRama
