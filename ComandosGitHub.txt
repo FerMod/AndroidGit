@@ -31,8 +31,13 @@ git commit -m "mensaje (en imperativo Ej: fix layout..)"
 Crear rama:
 git branch nombreRama
 
+Unir rama a la rama en la que estas:
+git merge --no-ff nombreRama
+
 Moverse a otra rama:
-git checkout nombreRama
+git checkout [parametroOpcional] nombreRama
+
+-b : crear rama
 
 Ver en que rama estas y cuales hay:
 git branch
@@ -42,6 +47,7 @@ git stash
 
 Traerse a la rama en la que estes la rama que espicifiques:
 git merge master
+
 
 
 
