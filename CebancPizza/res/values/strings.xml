@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CebancPizza</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tPantalla1">CEBANC-PIZZA</string>
+    <string name="Siguiente">siguiente</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="salir">Salir</string>
+    <string name="pPizza">Pedido Pizza</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Telefono">Teléfono</string>
+    <string name="tPantalla2">Pedido Pizzas</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+
+</resources>
