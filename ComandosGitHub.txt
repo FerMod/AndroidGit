@@ -76,6 +76,9 @@ EN EL REPOSITORIO "MASTER" NO SE HACE PUSH HASTA QUE SEA UNA VERSION ESTABLE
 //Si se han hecho varios commits en una rama y se quiere poner a la vez en otra rama hacer
 git merge --squash nombreRama
 
+//Actualizar las ramas
+git remote update origin --prune
+
 
 
 
