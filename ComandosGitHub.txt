@@ -57,6 +57,10 @@ git merge --squash master
 Mostrar arbol de todas las ramas creadas, borradas, etc.:
 git log --graph --all --decorate --oneline
 
+Actualizar las ramas del repositorio:
+git branch -r
+git remote update origin --prune
+
 -----------------------------------------------------------------------------------------------------
 Para subir al repositorio en la nube los combios realizados solo en una rama (situado en la rama):
 
@@ -73,10 +77,6 @@ git push
 -------------------------------------------------------------------------------------------------------
 
 EN EL REPOSITORIO "MASTER" NO SE HACE PUSH HASTA QUE SEA UNA VERSION ESTABLE
-
-//Actualizar las ramas
-git branch -r
-git remote update origin --prune
 
 
 
