@@ -51,7 +51,7 @@ git branch
 Deshacer cambios locales que no esten en el repositorio remoto:
 git stash
 
-Traerse a la rama en la que estes la rama que espicifiques:
+Traerse a la rama en la que estes la rama que espicifiques. Los commits apareceran a la vez:
 git merge --squash master
 
 Mostrar arbol de todas las ramas creadas, borradas, etc.:
@@ -73,10 +73,9 @@ git push
 -------------------------------------------------------------------------------------------------------
 
 EN EL REPOSITORIO "MASTER" NO SE HACE PUSH HASTA QUE SEA UNA VERSION ESTABLE
-//Si se han hecho varios commits en una rama y se quiere poner a la vez en otra rama hacer
-git merge --squash nombreRama
 
 //Actualizar las ramas
+git branch -r
 git remote update origin --prune
 
 
